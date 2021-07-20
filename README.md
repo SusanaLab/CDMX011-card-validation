@@ -16,7 +16,7 @@ Investigación UX:
 
     Objetivos:
     Comprar en tienda en línea.
-    Validar tarjeta de credito de credito. 
+   -Validar tarjeta de credito de credito.
     Mantener los datos de su tarjeta seguros.
 
   ¿Como el producto soluciona sus necesidades?
