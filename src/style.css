@@ -1,0 +1,89 @@
+.banner{
+    font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(255, 255, 255);
+      background-color: rgba(25, 24, 100, 0.493);
+      text-align: center; 
+      font-size: 90%;
+  }
+  .slogan{
+    font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(255, 255, 255);
+      background-color: rgba(253, 91, 42, 0.384);
+      text-align: center; 
+      font-size: 160%;
+  }
+  
+  .info .p {
+      font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      text-align: center; 
+  }
+  .digitos{
+  
+  text-align: center; 
+  
+  }
+  .boton1{
+    text-align: center; 
+    background: linear-gradient(45deg, #264cf5d8, #fd761c);  
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+  
+  }
+  .info{
+    font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(8, 8, 8);
+      text-align: center; 
+      font-size: 150%;
+      font-weight: bold;
+  }
+  
+  .validacion{
+  
+    font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(7, 7, 7);
+      font-weight: bold;
+      text-align: center; 
+      font-size: 150%;
+  }
+  .cod {
+    text-align: center; 
+  
+  }
+  
+.clean{
+    text-align: center; 
+  }
+
+.aviso{
+      font-family: Arial, Helvetica, Sans-serif;
+      background-color: rgb(22, 21, 21);
+      color: rgb(255, 255, 255);
+      text-align: center; 
+      font-size: 80%;
+    }
+    .letras{
+      font-family: Arial, Helvetica, Sans-serif;
+        color: rgb(14, 13, 13);
+        text-align: center; 
+        font-size: 55%;
+    }
+    .mas {
+      font-family: Arial, Helvetica, Sans-serif;
+      color: rgb(0, 0, 0);
+      text-align: center; 
+      font-size: 140%;
+      font-weight: bold;
+    }
+    
+    .tarjetav {
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    body {
+      background-image: url("bici.png");
+    }
