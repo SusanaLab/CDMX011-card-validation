@@ -3,7 +3,8 @@ Validación de tarjeta de crédito.
 El proyecto busca validar tarjetas de crédito de usuarios de una tienda en línea de bicicletas.
 
 Imagen final de proyecto.
-![Final](https://user-images.githubusercontent.com/86276089/126522419-1e945ce4-9a8e-4f31-a5ae-f68c17def3a2.png)
+![image (3)](https://user-images.githubusercontent.com/86276089/126575277-2f740ed6-7877-4c82-a3f7-cd29cd368ede.png)
+
 
 
 Investigación UX:
