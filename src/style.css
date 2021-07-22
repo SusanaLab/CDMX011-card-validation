@@ -1,14 +1,14 @@
 .banner{
     font-family: Arial, Helvetica, Sans-serif;
       color: rgb(255, 255, 255);
-      background-color: rgba(25, 24, 100, 0.493);
+      background-color: rgba(0, 0, 0, 0.699);
       text-align: center; 
       font-size: 90%;
   }
   .slogan{
     font-family: Arial, Helvetica, Sans-serif;
       color: rgb(255, 255, 255);
-      background-color: rgba(253, 91, 42, 0.384);
+      background-color: rgba(43, 247, 219, 0.596);
       text-align: center; 
       font-size: 160%;
   }
@@ -26,7 +26,7 @@
   }
   .boton1{
     text-align: center; 
-    background: linear-gradient(45deg, #264cf5d8, #fd761c);  
+    background: linear-gradient(45deg, #000000d8, #1cdbfd);  
     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
     border-radius: 3px;
     padding: 5px 10px;
@@ -85,5 +85,5 @@
       font-family: Georgia, 'Times New Roman', Times, serif; 
     }
     body {
-      background-image: url("bici.png");
+      background-image: url("orange.jpg");
     }

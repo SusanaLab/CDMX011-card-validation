@@ -30,8 +30,7 @@ const validator = {
         let suma = newArray.reduce(function (a, b) {
             return a + b;
         }, 0);
-        //console.log( suma);
-        //console.log( suma % 10 == 0 );
+        
         return (suma % 10) == 0 // true or false
     },
     maskify: function (card) {  
