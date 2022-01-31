@@ -1,89 +1,90 @@
-.banner{
-    font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(255, 255, 255);
-      background-color: rgba(0, 0, 0, 0.699);
-      text-align: center; 
-      font-size: 90%;
-  }
-  .slogan{
-    font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(255, 255, 255);
-      background-color: rgba(43, 247, 219, 0.596);
-      text-align: center; 
-      font-size: 160%;
-  }
-  
-  .info .p {
-      font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(0, 0, 0);
-      background-color: rgb(255, 255, 255);
-      text-align: center; 
-  }
-  .digitos{
-  
-  text-align: center; 
-  
-  }
-  .boton1{
-    text-align: center; 
-    background: linear-gradient(45deg, #000000d8, #1cdbfd);  
-    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
-    border-radius: 3px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #fff;
-  
-  }
-  .info{
-    font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(8, 8, 8);
-      text-align: center; 
-      font-size: 150%;
-      font-weight: bold;
-  }
-  
-  .validacion{
-  
-    font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(7, 7, 7);
-      font-weight: bold;
-      text-align: center; 
-      font-size: 150%;
-  }
-  .cod {
-    text-align: center; 
-  
-  }
-  
-.clean{
-    text-align: center; 
-  }
+body {
+  background-image: url("img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}   
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 
-.aviso{
-      font-family: Arial, Helvetica, Sans-serif;
-      background-color: rgb(22, 21, 21);
-      color: rgb(255, 255, 255);
-      text-align: center; 
-      font-size: 80%;
-    }
-    .letras{
-      font-family: Arial, Helvetica, Sans-serif;
-        color: rgb(14, 13, 13);
-        text-align: center; 
-        font-size: 55%;
-    }
-    .mas {
-      font-family: Arial, Helvetica, Sans-serif;
-      color: rgb(0, 0, 0);
-      text-align: center; 
-      font-size: 140%;
-      font-weight: bold;
-    }
-    
-    .tarjetav {
-      font-family: Georgia, 'Times New Roman', Times, serif; 
-    }
-    body {
-      background-image: url("orange.jpg");
-    }
+.info{
+position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+width: 500px;
+height: 300px;
+  border-radius: 7px;
+    transform: translate3d( 40%, 30%, 0 );
+    z-index: 30;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+#caja{
+  position: relative;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+ width: 250px; 
+ height: 40px;
+}
+h1{display: flex;}
+h6{display: flex;}
+
+#miboton{
+  position: relative;
+  width: 120px;
+height: 27px;
+margin: 10px;
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+color: #FFFFFF;
+font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+border-color: black;
+}
+.validacion{
+  position: relative;
+  font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+color: #cff9ff;
+}
+.mas{
+  position: relative;
+  color: #FFFFFF;
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 66px;
+}
+.numero{
+  position: relative;
+  color: #FFFFFF;
+font-family: Proza Libre;
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 66px;
+}
