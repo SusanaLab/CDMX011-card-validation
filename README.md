@@ -1,6 +1,6 @@
 # Validación de Tarjeta de Crédito
 
-Este proyecto consiste en una aplicación web simple para validar números de tarjetas de crédito. La aplicación verifica si el número ingresado es válido según el algoritmo de Luhn y proporciona retroalimentación sobre el tipo de tarjeta (por ejemplo, Visa, MasterCard, etc.).
+Este proyecto consiste en una aplicación web simple para validar números de tarjetas de crédito. La aplicación verifica si el número ingresado es válido según el algoritmo de Luhn.
 
 ## Características
 
