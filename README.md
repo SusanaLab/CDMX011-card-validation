@@ -1,37 +1,37 @@
-Validación de tarjeta de crédito.
+# Validación de Tarjeta de Crédito
 
-El proyecto busca validar tarjetas de crédito de usuarios de una tienda en línea de bicicletas.
+Este proyecto consiste en una aplicación web simple para validar números de tarjetas de crédito. La aplicación verifica si el número ingresado es válido según el algoritmo de Luhn y proporciona retroalimentación sobre el tipo de tarjeta (por ejemplo, Visa, MasterCard, etc.).
 
-Imagen final de proyecto.
-![image (3)](https://user-images.githubusercontent.com/86276089/126575277-2f740ed6-7877-4c82-a3f7-cd29cd368ede.png)
+## Características
 
+- **Validación de Números de Tarjeta de Crédito:** Utiliza el algoritmo de Luhn para verificar la validez de los números de tarjeta de crédito ingresados.
 
+- **Interfaz Amigable:** Diseño limpio y sencillo para una experiencia de usuario intuitiva.
 
-Investigación UX:
- 
- El cliente del producto es una Tienda en línea, la cual busca reducir la salida de sus consumidores al momento de pagar.
-  Esto debido a que el usuario quiere saber de manera rápida y sencilla, si su tarjeta es válida para pagar, por tanto la empresa Bicycle Shop busca agregar un validador de tarjetas para hacer el proceso de compra más rápido y evitar que el usuario pierda el interés y busque otra tienda que si le ofrezca este servicio. 
-  Siendo de este modo se define el perfil del usuario y sus objetivos.
+## Tecnologías Utilizadas
 
-  Perfil del Usuario.
-  Está dirigido principalmente para consumidores de la tienda en línea, que son personas interesadas en la adquisición de una bicicleta, refacciones o equipo en la tienda  Bicycle Shop.
-
-    Objetivos:
-    Comprar en tienda en línea.
-   -Validar tarjeta de credito de credito.
-    Mantener los datos de su tarjeta seguros.
-
-  ¿Como el producto soluciona sus necesidades?
-  Dándoles una pagina facil de usar.
-  Manteniendo segura  su informaciòn.
-  Facilitando su compra con su tarjeta, mediante la validación.
-
- Prototipo Inicial
-![prototipo 1](https://user-images.githubusercontent.com/86276089/126408340-158d242b-a746-4f16-98ac-c231d86c5915.jpg)
-
- Feedback
-  El prototipo inicial se mencionó que se podría agregar algunos elementos para diferenciar cada parte. 
+- **HTML:** Estructura básica de la página web.
   
- Prototipo final
-![prototipo inicial](https://user-images.githubusercontent.com/86276089/126408346-7b821856-feae-4b26-a8bb-0533262c4bde.png)
+- **CSS:** Estilos para una presentación atractiva.
+  
+- **JavaScript:** Lógica de validación y determinación del tipo de tarjeta.
 
+## Instrucciones de Uso
+
+1. Abre el archivo `index.html` en tu navegador web.
+
+2. Ingresa el número de tu tarjeta de crédito en el campo correspondiente.
+
+3. Haz clic en el botón "Enviar" para validar la tarjeta.
+
+4. La aplicación mostrará si la tarjeta es válida o no, junto con el tipo de tarjeta.
+
+¡Listo! Disfruta de la validación de tarjetas de crédito con esta aplicación simple y funcional.
+
+## Contribuciones
+
+Si encuentras algún problema o tienes ideas para mejorar esta aplicación, ¡no dudes en contribuir! Abre un problema o envía una solicitud de extracción para iniciar la conversación.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
