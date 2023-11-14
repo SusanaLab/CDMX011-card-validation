@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
   <div class="div-con-fondo">
-  <head>
-    <meta charset="utf-8">
-    <title class = "card">Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body >
-  
-      <div class= "info">
-        <h3 class = "numero" >Numero de tarjeta: </h3> 
-         <input id="caja" type ="text"placeholder="1234567899876543" maxLenght="19" required  />
-        <button id= "miboton" class="boton1" type="click" > Enviar </button>
-      <div class= "validacion" id="validaOInvalida">
-        <h4>Tu tarjeta de credito es: </h4>  
-          <h5 id="mfy" class= "mas" >  </h5>
-
-      </div> 
-     </div> 
-   
-  </body> 
-   <script src="index.js" type="module"></script>
+    <head>
+      <meta charset="utf-8">
+      <title class="card">Tarjeta de crédito válida</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:wght@300;400&family=Poppins:wght@100;700&family=Raleway:wght@200&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+      <div class="info">
+        <div id="square"></div>
+        <h3 class="numero">Numero de tarjeta: </h3>
+        <div class="form">
+          <input id="caja" type="text" placeholder="12345678011011"
+            maxLenght="19" required />
+          <button id="miboton" class="boton1" type="click"> Enviar </button>
+        </div>
+        <div class="validacion" id="validaOInvalida">
+          <h5 id="mfy" class="mas"> </h5>
+        </div>
+      </div>
+    </body>
+    <script src="index.js" type="module"></script>
     <script src="validator.js" type="module"></script>
-</html>
+  </html>
 </div>
