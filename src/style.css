@@ -1,0 +1,132 @@
+body {
+  background: rgba(114, 65, 255, 0.93);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+html {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.info {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-self: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-size: 100%;
+  width: 406px;
+  height: 218px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.numero {
+  color: #FFF;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3xl;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#caja {
+  background: rgba(217, 217, 217, 0.39);
+  border-width: 0px;
+  backdrop-filter: blur(2px);
+  font-family: 'Montserrat', sans-serif;
+  width: 111px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #FFF;
+  margin: 5px;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.boton1 {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: rgb(75, 29, 174);
+  border-width: 0px;
+  width: 101px;
+  height: 31px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+
+
+.validacion h4 {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3xl;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#mfy {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3xl;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+#validaOInvalida {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+  margin: 9px;
+  padding: 10px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3xl;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#square {
+  margin-left: -290px;
+  margin-top: 10px;
+  padding: 3px;
+  width: 38px;
+  height: 28px;
+  border-radius: 5px;
+  background: #FFFCFA;
+
+}
