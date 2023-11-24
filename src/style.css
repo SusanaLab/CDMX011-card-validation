@@ -19,8 +19,7 @@ body {
   min-height: 100%;
 }
 
-.info {
-  position: relative;
+.info {  
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -29,8 +28,6 @@ body {
   width: 500px;
   height: 300px;
   border-radius: 7px;
-  transform: translate3d(40%, 30%, 0);
-  z-index: 30;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.2);
